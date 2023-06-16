@@ -1,0 +1,144 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #717171;
+  text-align: left;
+  padding: 8px;
+}
+
+thead tr th:first-child {
+  width: 15%;
+}
+
+td>div {
+  min-width: 120px;
+}
+
+th {
+  white-space: nowrap;
+}
+
+tbody tr:hover {
+  background: linear-gradient(to right, #d0f5f2, #90f7ec);
+}
+
+table thead {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  border: 1px solid #717171;
+  background: linear-gradient(to right, #d0f5f2, #90f7ec);
+}
+
+table thead.sticky {
+  position: fixed;
+  top: 0;
+  z-index: 20;
+  display: block;
+}
+
+thead.sticky tr {
+  width: 100%;
+  display: flex;
+}
+
+thead.sticky th {
+  display: inline-block;
+  max-width: unset;
+}
+
+td:first-child,
+th:first-child {
+  position: sticky;
+  left: 0;
+  background: linear-gradient(to right, #d0f5f2, #90f7ec);
+}
+
+tbody tr td:nth-child(2) {
+  background: #dcdcdc;
+  background: #d2cef0;
+}
+
+tbody tr td:nth-child(3) {
+  background: #d8d8d8;
+  background: rgb(1 123 244 / 20%);
+}
+
+tbody tr td:nth-child(4) {
+  background: #d3d3d3;
+  background: rgb(4 101 204 / 10%);
+}
+
+tbody tr td:nth-child(5) {
+  background: #d0d0d0;
+  background: rgb(228 0 208 / 20%);
+}
+
+tbody tr td:nth-child(6) {
+  background: #c8c8c8;
+  background: rgb(221 181 87 / 30%);
+}
+
+tbody tr td:nth-child(7) {
+  background: #c0c0c0;
+  background: rgb(31 46 100 / 20%);
+}
+
+tbody tr td:nth-child(8) {
+  background: #bebebe;
+  background: rgb(126 99 242 / 20%);
+}
+
+tbody tr:hover td:nth-child(2) {
+  background: unset;
+}
+
+tbody tr:hover td:nth-child(3) {
+  background: unset;
+}
+
+tbody tr:hover td:nth-child(4) {
+  background: unset;
+}
+
+tbody tr:hover td:nth-child(5) {
+  background: unset;
+}
+
+tbody tr:hover td:nth-child(6) {
+  background: unset;
+}
+
+tbody tr:hover td:nth-child(7) {
+  background: unset;
+}
+
+tbody tr:hover td:nth-child(8) {
+  background: unset;
+}
+
+.overflow-container {
+  overflow: auto;
+  height: 90vh;
+  scrollbar-width: auto;
+  scrollbar-color: #717171;
+}
+
+.overflow-container::-webkit-scrollbar {
+  height: 6px;
+  width: 6px;
+}
+
+.overflow-container::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+.overflow-container::-webkit-scrollbar-thumb {
+  background-color: #717171;
+  border-radius: 10px;
+}

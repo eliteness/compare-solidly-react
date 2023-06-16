@@ -1,0 +1,17 @@
+.icon {
+  min-height: 48px;
+  min-width: 48px;
+  background: url('https://ftm.guru/icons/solidly.svg') no-repeat center center / contain;
+  border-radius: 50%;
+  flex: 0 0 48px;
+}
+
+.social-icon {
+  width: 26px;
+  height: 26px;
+}
+
+.cmc {
+  background: #321;
+  border-radius: 5px;
+}
